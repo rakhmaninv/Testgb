@@ -93,5 +93,11 @@
 
     git merge --abort
 
+## Удаление веток
 
-esdfsdf
+Для удаления веток используется команда:
+
+    git branch -d [branch_name]
+Для удаления веток без слияния используется команда:
+
+    git branch -D [branch_name]
